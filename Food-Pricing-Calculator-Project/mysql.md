@@ -66,7 +66,11 @@ Go Inside Mysql
 ```mysql
 mysql -u root -p
 
-ALTER USER 'expense'@'%' IDENTIFIED BY 'ExpenseApp@1';
+CREATE USER 'root'@'%' IDENTIFIED BY 'ExpenseApp@1';
+
+or
+
+ALTER USER 'root'@'%' IDENTIFIED BY 'ExpenseApp@1';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
 FLUSH PRIVILEGES;
 
