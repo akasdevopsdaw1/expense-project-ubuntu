@@ -12,7 +12,7 @@ Backend service is written in NodeJS, Hence we need to install NodeJS.
 **Developer has set a context that it can work with NodeJS >20**
 :::
 
-Install NodeJS, By default NodeJS 16 is available, We would like to enable 20 version and install this.
+Install NodeJS.
 
 
 
