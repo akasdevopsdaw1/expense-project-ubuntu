@@ -51,10 +51,6 @@ Go Inside Mysql
 ```mysql
 mysql -u root -p
 CREATE USER 'expense'@'%' IDENTIFIED BY 'ExpenseApp@1';
-
-OR
-
-ALTER USER 'expense'@'%' IDENTIFIED BY 'ExpenseApp@1';
 GRANT ALL PRIVILEGES ON transactions.* TO 'expense'@'%';
 FLUSH PRIVILEGES;
 
